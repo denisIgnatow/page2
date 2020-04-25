@@ -1,0 +1,62 @@
+.wrapper {
+  max-width: 472px;
+  margin: 0 auto;
+}
+
+.header__logo {
+  width: 132.33px;
+}
+
+.header__nav {
+  font-size: 10px;
+}
+
+main {
+  padding-top: 0;
+}
+
+main .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#list__left,
+#list__right {
+  display: block;
+}
+
+.products-wrapper {
+  width: 169px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.products-container {
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product__photo {
+  min-height: 1px;
+  width: 169px;
+}
+
+.product__form {
+  display: none;
+}
+
+.button-container {
+  display: flex;
+}
+
+.company-name,
+.address-email {
+  font-size: 8px;
+}
